@@ -69,13 +69,101 @@ background-color: #1A0B2E;
     width:100% ;
     height: auto;
 }
- .img{
-    background-image: url("../images/ArrowRight.png");
-    background-repeat: no-repeat;
- }
+ 
 
 .hamburger {
 display: none;
+}
+
+#hero {
+    background-image: url("../images/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 63px;
+    padding-bottom: 139px;
+  
+    
+  
+}
+.hero-contents{
+  flex-direction: column;
+  text-align: center;
+  max-width:525px ;
+  margin: 0 auto;
+  
+  
+  
+ 
+  
+}
+.hero-image  {
+    position: relative;
+   
+   
+
+}
+
+.hero-image .img1 {
+    max-width: 200px;
+    width: 100%;
+    
+
+    
+
+}
+.hero-image .img2{
+     
+    width: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+
+    
+   
+ 
+}
+.hero-info h3{
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: white;
+
+
+}
+
+.hero-info p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+     margin-bottom: 24px;
+}
+
+.btn2 {
+  justify-content: center;
+  gap: 8px; 
+}
+.btn2 .Subscribe2{
+    border-radius: 10000px;
+    padding: 12px 20px;
+    border: 1px solid #00FF88;
+   color:  #00FF88;
+   background-color: transparent;
+    font-weight: 600;
+    font-size: 1rem;
+   cursor: pointer;
+}
+
+
+.new-button{
+    background-color: #00FF88;
+    font-size: 1.125rem;
+   padding: 8px 16px;
+   font-weight: 600;
+   border-radius: 10000px;
+   position: absolute;
+   border: none;
+   top: 5%;
+   left: 59%;
 }
 
 /* Responsive Small device: up to 576 px */
@@ -87,10 +175,26 @@ display: none;
     .nav-links , .navbutton{
         display: none;
     }
+    .headerlogo img{
+    max-width: 137px;
+    width:100% ;
+    height: auto;
+}
     .hamburger {
  display: block;
  color: rgb(253, 253, 253);
- font-size: 1.8rem;
+ font-size: 1.6rem;
 
 }
+
+.hero-info h2{
+    font-size: 2.52rem;
+   
 }
+
+
+ 
+   
+}
+
+
