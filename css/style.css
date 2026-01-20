@@ -473,13 +473,13 @@ background-color: #1A0B2E;
 
 .about-podcast{
 
-    max-width: 450px;
+    max-width: 400px;
     margin: 0 auto;
 
 
 }
 .about-number{
-    max-width: 450px;
+    max-width: 400px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -494,7 +494,8 @@ padding: 40px 0;
 }
 
 .card-box{
-
+max-width: 400px;
+    margin: 0 auto;
     display: grid;
    grid-template-columns: repeat(1, minmax(0, 1fr));
      box-sizing: border-box; 
@@ -515,7 +516,8 @@ padding: 40px 0;
      #features .feature-contents{
     max-width: 400px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 40px 0 60px;
+
     }
     .card-video{
     display: grid;
@@ -530,6 +532,27 @@ padding: 40px 0;
     font-size: 2rem;
     margin-bottom: 24px;
     
+ }
+ .ceo-box{
+    display: grid;
+    max-width: 400px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+    }
+
+     .icone {
+ justify-content: center;
+}
+
+ .host h3{
+    font-size: 2rem;
+     margin-bottom: 24px;
+ }
+ .host {
+   
+    padding-bottom: 40px;
  }
 
 }
