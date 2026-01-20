@@ -34,6 +34,11 @@
     font-weight: 600;
     font-size: 1rem;
    cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.btn-1:hover{
+    transform: translateY(-3px);
+  filter: brightness(1.15);
 }
 .display-flex{
 display: flex;
@@ -41,7 +46,9 @@ display: flex;
 
 .bg-color{
 background-color: #1A0B2E;
+
 }
+
  /* Header css start here */
  header{
     overflow: auto;
