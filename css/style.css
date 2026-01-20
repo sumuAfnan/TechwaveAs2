@@ -265,7 +265,9 @@ display: none;
     text-align: center;
  
 }
-
+#about .about-contents{
+ padding: 40px 0;
+}
  
    
 }
