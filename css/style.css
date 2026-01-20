@@ -280,10 +280,19 @@ margin: 0 auto;
   grid-column: span 1;
    grid-row: span 1;
 }
-.card-image{
+.card-image img{
     max-width: 60px;
     width: 100%;
+     animation: iconFloat 1.2s ease-in-out infinite;
 }
+/* Animation start here  */
+
+@keyframes iconFloat {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
 .card-design h4{
     color: #ffffff;
     font-size: 1.5rem;
@@ -437,7 +446,7 @@ background-color: #1A0B2E;
     height: 40px;
     border-radius: 50%;
     background-color: transparent;
-     border: 1px solid #533C72; 
+     border: 1px solid #533C72;
 
   display: flex;
   justify-content: center;
@@ -445,9 +454,9 @@ background-color: #1A0B2E;
   
  }
  .circle img {
-  width: 20px;  
+  width: 20px;
   height: 20px;
-  object-fit: contain; 
+  object-fit: contain;
 }
 #footer-part{
      background-image: url("../images/footer-bg.png");
@@ -504,6 +513,7 @@ background-color: #1A0B2E;
 
 
 /* Responsive Small device: up to 576 px */
+
 @media screen and (max-width:576px) {
     .navber{
         max-width: 400px;
@@ -557,7 +567,7 @@ max-width: 400px;
     margin: 0 auto;
     display: grid;
    grid-template-columns: repeat(1, minmax(0, 1fr));
-     box-sizing: border-box; 
+     box-sizing: border-box;
      gap: 16px;
 }
    
@@ -565,7 +575,7 @@ max-width: 400px;
 .card-contents h3{
 
     font-size: 2rem;
- 
+
 }
 
 .card-1, .card-2, .card-3, .card-4, .card-5 {
