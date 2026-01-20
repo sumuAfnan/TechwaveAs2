@@ -306,12 +306,13 @@ background-color: #1A0B2E;
 }
 .youtube-btn{
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
    cursor: pointer;
     animation: pulse 2s infinite;
     transition: transform 0.3s ease;
+    z-index: 900;
     
 }
 .youtube-btn:hover {
@@ -339,12 +340,13 @@ background-color: #1A0B2E;
   background: rgba(53, 17, 101, 0.4);
   border-radius: 15px;
   overflow: hidden;
-   position: relative;
+  
 }
 
 .video-wrapper {
   width: 100%;
   aspect-ratio: 16 / 9;
+   position: relative;
 }
 
 .video-wrapper video {
