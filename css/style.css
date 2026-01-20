@@ -300,6 +300,150 @@ padding: 40px;
     border-radius: 40px;
 }
 
+#features{
+background-color: #1A0B2E;
+
+}
+.youtube-btn{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   cursor: pointer;
+    animation: pulse 2s infinite;
+    transition: transform 0.3s ease;
+    
+}
+.youtube-btn:hover {
+     transform: translate(-50%, -50%) scale(1.3);
+}
+
+ #features .feature-contents{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 0;
+    
+
+ }
+
+ .feature-contents h4{
+     color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+ }
+.video-card {
+  max-width: 380px;
+  margin: 0 auto;
+  background: rgba(53, 17, 101, 0.4);
+  border-radius: 15px;
+  overflow: hidden;
+   position: relative;
+}
+
+.video-wrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+  .video-info {
+     padding: 24px;
+ }
+  .video-info h5{
+     color: white;
+    font-size: 1.5rem;
+    font-weight: 700; 
+    
+ }
+
+   .video-info h6{
+     color: #00FF88;
+    font-size: 1rem;
+    font-weight: 600; 
+    margin-top: 12px;
+ }
+
+   .video-info p{
+   color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 12px;
+     opacity: 0.6;
+     
+ }
+ .card-video{
+    display: flex;
+    gap: 30px;
+   
+ }
+ 
+ .ceo-box{
+    background-color: rgba(53, 17, 101, 0.4);
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 40px;
+    border-radius: 40px;
+    gap: 24px;
+ }
+ .host {
+   
+    padding-bottom: 120px;
+ }
+ .host h3{
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+ }
+
+ .ceo-info h4{
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 700px;
+    margin-bottom: 16px;
+ }
+
+ .ceo-info p{
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 400px;
+    opacity: 0.6;
+    margin-bottom: 16px;
+    line-height: 24px;
+ }
+ .icone {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+
+ .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+     border: 1px solid #533C72; 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ }
+ .circle img {
+  width: 20px;  
+  height: 20px;
+  object-fit: contain; 
+}
 
 /* Responsive Small device: up to 576 px */
 @media screen and (max-width:576px) {
