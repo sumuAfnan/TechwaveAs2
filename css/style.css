@@ -136,6 +136,7 @@ display: none;
     font-weight: 400;
     color: white;
      margin-bottom: 24px;
+     opacity: 0.8;
 }
 
 .btn2 {
@@ -165,6 +166,61 @@ display: none;
    top: 5%;
    left: 59%;
 }
+
+
+#about{
+    background-color: #1A0B2E;
+}
+
+#about .about-contents{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+#about .about-contents .about-podcast{
+ text-align: center;
+ 
+}
+#about .about-podcast h3{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+#about .about-podcast p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 80px;
+    line-height: 20px;
+    opacity: 0.8;
+}
+.line{
+      margin-top: 80px;
+     border-top: 0.1px solid #323131;
+     margin-bottom: 80px;
+}
+
+.about-h3{
+    color: #00FF88;
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+.about-p{
+    color: #ffffff;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.about-number{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* Responsive Small device: up to 576 px */
 @media screen and (max-width:576px) {
