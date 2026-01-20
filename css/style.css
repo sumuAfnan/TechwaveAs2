@@ -43,6 +43,9 @@ display: flex;
 background-color: #1A0B2E;
 }
  /* Header css start here */
+ header{
+    overflow: auto;
+ }
  .navber{
     justify-content: space-between;
     align-items: center;
@@ -196,6 +199,8 @@ display: none;
     margin-bottom: 80px;
     line-height: 20px;
     opacity: 0.8;
+    justify-content: center;
+    
 }
 .line{
       margin-top: 80px;
@@ -444,6 +449,59 @@ background-color: #1A0B2E;
   height: 20px;
   object-fit: contain; 
 }
+#footer-part{
+     background-image: url("../images/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+}
+.footer-content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-logo h3{
+     font-size: 3.75rem;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.footer-logo h3 span{
+    background: linear-gradient(
+        90deg,
+        #F7E93F 0%,
+    #FB09B4 51%,
+    #9100F8 100%
+    );
+-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.one{
+    display: flex;
+    gap: 8px;
+}
+.text-icone{
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.icone-footer{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.footer-p{
+    color: #ffffff;
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 32px;
+}
+
+
+
 
 /* Responsive Small device: up to 576 px */
 @media screen and (max-width:576px) {
@@ -482,10 +540,11 @@ background-color: #1A0B2E;
     max-width: 400px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
     justify-items: center;
     text-align: center;
+    overflow: hidden;
  
 }
 
@@ -554,8 +613,27 @@ max-width: 400px;
    
     padding-bottom: 40px;
  }
+.icone-footer{
+    max-width: 400px;
+    margin: 0 auto;
+    display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 16px;
+  justify-items: center;
+ 
+  
+}
+.footer-logo h3{
+     font-size: 3rem;
+    margin-bottom: 32px;
+}
+#footer-part{
+    padding: 40px 0;
+}
+
 
 }
+
 
 
 
